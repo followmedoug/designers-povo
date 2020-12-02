@@ -1,0 +1,177 @@
+import React from "react";
+import { Button, Card } from "react-bootstrap";
+import laptop from "../../assets/images/laptop.jpeg";
+import phone from "../../assets/images/phone.jpeg";
+
+export default function Courses() {
+  return (
+    <>
+      <div
+        style={{
+          backgroundColor: "#F8E85A",
+          height: "100vh",
+          width: "100%",
+          paddingTop: 100,
+          paddingLeft: 83,
+        }}
+      >
+        <p
+          style={{
+            fontSize: 64,
+            fontStyle: "italic",
+            fontWeight: 800,
+          }}
+        >
+          CURSOS ONLINE
+        </p>
+
+        <div style={{ display: "flex" }}>
+          <Card
+            style={{
+              width: "372px",
+              height: "446px",
+              backgroundColor: "#EBE8D3",
+              borderRadius: "10px",
+              border: 0,
+            }}
+          >
+            <Card.Body>
+              <Card.Img
+                variant="top"
+                src={laptop}
+                style={{
+                  width: "335px",
+                  height: "182px",
+                  borderRadius: "10px",
+                }}
+              />
+              <Card.Text
+                style={{
+                  fontSize: "18px",
+                  fontWeight: 500,
+                }}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt, explicabo.
+              </Card.Text>
+
+              <Button
+                style={{
+                  backgroundColor: "rgba(0, 0, 0, 0.62)",
+                  color: "#CEAC0F",
+                  borderRadius: "10px",
+                  height: "35px",
+                  width: "215px",
+                  padding: 0,
+                  marginLeft: "60px",
+                  border: 0,
+                }}
+              >
+                Acessar
+              </Button>
+            </Card.Body>
+          </Card>
+
+          <Card
+            style={{
+              width: "372px",
+              height: "446px",
+              backgroundColor: "#EBE8D3",
+              borderRadius: "10px",
+              border: 0,
+              marginLeft: "300px",
+              marginRight: "300px",
+            }}
+          >
+            <Card.Body>
+              <Card.Img
+                variant="top"
+                src={phone}
+                style={{
+                  width: "335px",
+                  height: "182px",
+                  borderRadius: "10px",
+                }}
+              />
+              <Card.Text
+                style={{
+                  fontSize: "18px",
+                  fontWeight: 500,
+                }}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt, explicabo.
+              </Card.Text>
+
+              <Button
+                style={{
+                  backgroundColor: "rgba(0, 0, 0, 0.62)",
+                  color: "#CEAC0F",
+                  borderRadius: "10px",
+                  height: "35px",
+                  width: "215px",
+                  padding: 0,
+                  marginLeft: "60px",
+                  border: 0,
+                }}
+              >
+                Acessar
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card
+            style={{
+              width: "372px",
+              height: "446px",
+              backgroundColor: "#EBE8D3",
+              borderRadius: "10px",
+              border: 0,
+            }}
+          >
+            <Card.Body>
+              <Card.Img
+                variant="top"
+                src={laptop}
+                style={{
+                  width: "335px",
+                  height: "182px",
+                  borderRadius: "10px",
+                }}
+              />
+              <Card.Text
+                style={{
+                  fontSize: "18px",
+                  fontWeight: 500,
+                }}
+              >
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam eaque ipsa,
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt, explicabo.
+              </Card.Text>
+
+              <Button
+                style={{
+                  backgroundColor: "rgba(0, 0, 0, 0.62)",
+                  color: "#CEAC0F",
+                  borderRadius: "10px",
+                  height: "35px",
+                  width: "215px",
+                  padding: 0,
+                  marginLeft: "60px",
+                  border: 0,
+                }}
+              >
+                Acessar
+              </Button>
+            </Card.Body>
+          </Card>
+        </div>
+      </div>
+    </>
+  );
+}
